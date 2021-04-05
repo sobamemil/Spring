@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HelloController {
 
-    @GetMapping("hello")
+    @GetMapping("hello") // /hello가 입력되면 여기로 매핑됨
     public String hello(Model model) {
         model.addAttribute("data", "hello!!");
         return "hello";
