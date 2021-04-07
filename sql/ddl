@@ -1,3 +1,5 @@
+// sql 정리
+
 drop table if exists member CASCADE;
     create table member
 
